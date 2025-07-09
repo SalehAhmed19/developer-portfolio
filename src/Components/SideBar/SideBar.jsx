@@ -1,9 +1,11 @@
 import avatar from "../../assets/images/avatar.png";
 import signature from "../../assets/images/signature.png";
+import Social from "../Social/Social";
+import { BsArrowUpRight } from "react-icons/bs";
 
 export default function SideBar() {
   return (
-    <div className="fixed left-0 bg-[#101010] w-3/12 m-5 rounded-2xl shadow-2xl p-5 h-[90%] text-center">
+    <div className="bg-[#101010] w-3/12 m-5 rounded-2xl shadow-2xl p-5 text-center">
       <div className="border border-[#333] rounded-full flex items-center px-5 py-3 gap-2 text-[#B2B2B2]">
         <div className="h-2 w-2 bg-primary rounded-full"></div>
         <p>
@@ -19,6 +21,13 @@ export default function SideBar() {
         dev.saleh.ahmed.mahin@gmail.com
       </h3>
       <p className="text-[#787878]">Based in Bogura, Bangladesh</p>
+      <Social />
+      <button className="border border-[#333] my-5 pl-5 p-3 rounded-full w-full flex items-center justify-between cursor-pointer">
+        Get Started{" "}
+        <div className="bg-white h-6 w-6 rounded-full text-black flex justify-center items-center">
+          <BsArrowUpRight />
+        </div>
+      </button>
     </div>
   );
 }
