@@ -7,11 +7,11 @@ export default function Home() {
     const todayDate = new Date().toLocaleString().split(",");
     const time = todayDate[1].split(":");
     setTime(time[0] + ":" + time[1]);
-  }, []);
+  }, [time]);
   return (
     <div className="p-20 flex flex-col gap-20">
       <p className="text-xl font-extralight">
-        Bogura, Bangladesh {time} {time > 12 ? "AM" : "PM"}
+        Bogura, Bangladesh {time} {time > 12 ? "PM" : "AM"}
       </p>
 
       {/*  */}

@@ -7,10 +7,12 @@
 body {
   background: #000;
   color: #fff;
-  line-height: 64px;
 }
 .text-primary {
   color: #f3500e;
+}
+.text-secondary {
+  color: #999;
 }
 .bg-primary {
   background-color: #f3500e;
