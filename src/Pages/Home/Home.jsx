@@ -3,6 +3,8 @@ import Introduction from "../../Components/Introduction/Introduction";
 import Services from "../../Components/Services/Services";
 import AboutMe from "../../Components/AboutMe/AboutMe";
 import Stacks from "../../Components/Stacks/Stacks";
+import Contact from "../../Components/Contact/Contact";
+import Footer from "../../Components/Footer/Footer";
 
 export default function Home() {
   const [time, setTime] = useState();
@@ -22,6 +24,8 @@ export default function Home() {
       <Services />
       <AboutMe />
       <Stacks />
+      <Contact />
+      <Footer />
     </div>
   );
 }

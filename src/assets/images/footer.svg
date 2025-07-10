@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1980 872" width="1980" height="872">
+	<title>footer</title>
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="m990 1579c-547.47 0-990-352.91-990-789.5 0-436.59 442.53-789.5 990-789.5 547.47 0 990 352.91 990 789.5 0 436.59-442.53 789.5-990 789.5z"/>
+		</clipPath>
+	</defs>
+	<style>
+		.s0 { fill: #a44e11 } 
+	</style>
+	<g id="Clip-Path" clip-path="url(#cp1)">
+		<g>
+			<path fill-rule="evenodd" class="s0" d="m-72 0h2204v875h-2204z"/>
+		</g>
+	</g>
+</svg>
