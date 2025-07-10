@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import Introduction from "../../Components/Introduction/Introduction";
 import Services from "../../Components/Services/Services";
 import AboutMe from "../../Components/AboutMe/AboutMe";
+import Stacks from "../../Components/Stacks/Stacks";
 
 export default function Home() {
   const [time, setTime] = useState();
@@ -20,6 +21,7 @@ export default function Home() {
       <Introduction />
       <Services />
       <AboutMe />
+      <Stacks />
     </div>
   );
 }

@@ -8,7 +8,8 @@ export default function AboutMe() {
       </div>
       <div className=" col-span-3">
         <h3 className="text-[48px]">
-          Beyond the Pixels: Stories from a <br /> MERN Stack Web Developer.
+          <span className="text-secondary">Beyond the Pixels:</span> Stories
+          from a <br /> MERN Stack Web Developer.
         </h3>
 
         <p className="text-secondary">
