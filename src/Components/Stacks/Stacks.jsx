@@ -120,7 +120,7 @@ export default function Stacks() {
             <div className="bg-black p-5 my-5 rounded-2xl">
               <img src={stack.img} alt="" className="w-20" />
             </div>
-            <p className="text-xl">{stack.description}</p>
+            <p className="text-xl text-center">{stack.description}</p>
           </div>
         ))}
       </div>
