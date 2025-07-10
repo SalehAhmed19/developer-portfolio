@@ -27,24 +27,24 @@ export default function Introduction() {
         with a focus on seamless experiences
       </p>
 
-      <div className="mt-20">
-        <a href="https://www.mongodb.com/" target="_blank">
-          <span className="bg-[#131313] px-5 py-2 rounded-full cursor-pointer hover:bg-white hover:text-black duration-500 ease-in-out">
+      <div className="mt-20 flex flex-col items-center gap-5 md:flex-row">
+        <a href="https://www.mongodb.com/" target="_blank" className="">
+          <span className="bg-[#131313] px-5 py-2 w-full rounded-full cursor-pointer hover:bg-white hover:text-black duration-500 ease-in-out">
             MongoDB
           </span>
         </a>
         <a href="https://expressjs.com/" target="_blank">
-          <span className="bg-[#131313] px-5 py-2 rounded-full cursor-pointer hover:bg-white hover:text-black duration-500 ease-in-out">
+          <span className="bg-[#131313] px-5 py-2 w-full rounded-full cursor-pointer hover:bg-white hover:text-black duration-500 ease-in-out">
             Express.Js
           </span>
         </a>
         <a href="https://react.dev/" target="_blank">
-          <span className="bg-[#131313] px-5 py-2 rounded-full cursor-pointer hover:bg-white hover:text-black duration-500 ease-in-out">
+          <span className="bg-[#131313] px-5 py-2 w-full rounded-full cursor-pointer hover:bg-white hover:text-black duration-500 ease-in-out">
             React.Js
           </span>
         </a>
         <a href="https://nodejs.org/docs/latest/api/" target="_blank">
-          <span className="bg-[#131313] px-5 py-2 rounded-full cursor-pointer hover:bg-white hover:text-black duration-500 ease-in-out">
+          <span className="bg-[#131313] px-5 py-2 w-full rounded-full cursor-pointer hover:bg-white hover:text-black duration-500 ease-in-out">
             Node.Js
           </span>
         </a>
