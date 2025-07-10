@@ -60,7 +60,7 @@ export default function Services() {
             />
           ))}
         </div>
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-secondary px-6 flex gap-2 items-center">
             <GiWorld />
             Available to <span className="text-white">Worldwide</span>
