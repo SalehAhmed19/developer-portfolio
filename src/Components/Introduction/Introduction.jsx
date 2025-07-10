@@ -3,7 +3,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function Introduction() {
   return (
-    <div className="p-5 md:p-0">
+    <div className="p-5 md:p-0" id="home">
       <SectionTitle title={"Introduction"} />
       <h1 style={{ lineHeight: "65px" }} className="text-[64px]">
         <span className="text-secondary">

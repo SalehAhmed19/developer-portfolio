@@ -34,7 +34,7 @@ export default function Services() {
   ];
 
   return (
-    <div className="relative">
+    <div className="relative" id="service">
       <div className="h-screen w-96 rounded-full bg-[#A44E11] opacity-[90%] blur-3xl absolute md:right-[-200px] z-0"></div>
       {/*  */}
       <div className="bg-[#101010] p-5 md:p-10 rounded-2xl relative z-40">

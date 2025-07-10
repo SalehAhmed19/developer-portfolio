@@ -108,7 +108,7 @@ export default function Stacks() {
     ] // End of plugins array
   );
   return (
-    <div className="p-5 md:p-0">
+    <div className="p-5 md:p-0" id="stacks">
       <h3 className="text-[46px] md:text-[70px] font-medium">Tech Stack</h3>
       <div ref={sliderRef} className="keen-slider my-5">
         {stacks.map((stack, idx) => (

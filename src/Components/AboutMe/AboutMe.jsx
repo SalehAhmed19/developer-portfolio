@@ -2,7 +2,10 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 export default function AboutMe() {
   return (
-    <div className="grid md:grid-cols-4 items-start gap-5 p-5 md:p-0">
+    <div
+      className="grid md:grid-cols-4 items-start gap-5 p-5 md:p-0"
+      id="about"
+    >
       <div>
         <SectionTitle title={"About Me"} />
       </div>
