@@ -1,4 +1,8 @@
 import { GiWorld } from "react-icons/gi";
+import { SiAdobexd } from "react-icons/si";
+import { DiJsBadge } from "react-icons/di";
+import { FiPenTool } from "react-icons/fi";
+import { CgFigma } from "react-icons/cg";
 import { FiArrowUpRight } from "react-icons/fi";
 import { useState } from "react";
 import SectionTitle from "../SectionTitle/SectionTitle";
@@ -15,21 +19,25 @@ export default function Services() {
       title: "Web Design",
       content:
         "Web design is the process of creating visually appealing and user-friendly interfaces for websites. It involves a combination of graphic design, user experience design, and web development. A successful web design should engage users, provide a seamless experience, and effectively communicate the website's purpose and message.",
+      icon: <SiAdobexd />,
     },
     {
       title: "Web Development",
       content:
         "Web development involves the creation of websites and web applications using programming languages and web technologies such as HTML, CSS, and JavaScript. It encompasses both front-end development (client-side) and back-end development (server-side) and involves database management, server configuration, and application deployment. A successful web development project requires a combination of technical expertise, creativity, and problem-solving skills.",
+      icon: <DiJsBadge />,
     },
     {
       title: "Figma",
       content:
         "Figma is a cloud-based design tool used for creating user interfaces, prototypes, and design systems. It allows designers and teams to collaborate in real-time and provides a range of features for creating and sharing design assets. Figma has gained popularity among designers for its ease of use, versatility, and collaborative capabilities.",
+      icon: <CgFigma />,
     },
     {
       title: "Illustration",
       content:
         "Illustration is the art of creating visual representations of ideas, concepts, and stories through drawing, painting, or digital media. It is used in a variety of fields, including advertising, publishing, and entertainment. A successful illustration should effectively communicate a message or emotion and capture the viewer's attention.",
+      icon: <FiPenTool />,
     },
   ];
 
@@ -48,6 +56,7 @@ export default function Services() {
               index={index}
               activeIndex={activeIndex}
               onToggle={handleToggle}
+              icon={item.icon}
             />
           ))}
         </div>

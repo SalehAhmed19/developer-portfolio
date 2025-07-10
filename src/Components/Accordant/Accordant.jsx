@@ -1,4 +1,3 @@
-import { CgWebsite } from "react-icons/cg";
 import bg from "../../assets/images/img-bg.png";
 
 export default function Accordant({
@@ -7,6 +6,7 @@ export default function Accordant({
   index,
   activeIndex,
   onToggle,
+  icon,
 }) {
   const isOpen = index === activeIndex;
   return (
@@ -33,7 +33,7 @@ export default function Accordant({
               }}
               className="p-5 w-16 h-16 flex justify-center items-center rounded-2xl cursor-pointer"
             >
-              <CgWebsite className="w-8" />
+              <span className="text-[30px]">{icon}</span>
             </div>
           )}
 
