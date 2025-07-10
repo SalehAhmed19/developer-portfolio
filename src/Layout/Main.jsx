@@ -6,7 +6,7 @@ export default function Main() {
   return (
     <div className="flex">
       <SideBar />
-      <div className="flex-1">
+      <div className="w-3/4 ml-auto">
         <Outlet />
       </div>
     </div>

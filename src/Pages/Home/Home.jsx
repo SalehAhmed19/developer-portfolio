@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import Introduction from "../../Components/Introduction/Introduction";
+import Services from "../../Components/Services/Services";
 
 export default function Home() {
   const [time, setTime] = useState();
@@ -16,6 +17,7 @@ export default function Home() {
 
       {/*  */}
       <Introduction />
+      <Services />
     </div>
   );
 }

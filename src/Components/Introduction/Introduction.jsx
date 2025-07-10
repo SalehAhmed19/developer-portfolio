@@ -12,11 +12,11 @@ export default function Introduction() {
         {/* A MERN Stack & React.js Developer's Showcase. */}
         <Typewriter
           words={[" A MERN Stack & React.js Developer's Showcase"]}
-          loop={5}
+          loop={true}
           cursor
           cursorStyle="_"
           typeSpeed={70}
-          deleteSpeed={50}
+          deleteSpeed={30}
           delaySpeed={1000}
         />
       </h1>
