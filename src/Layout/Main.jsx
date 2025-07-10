@@ -5,7 +5,7 @@ import Navigation from "../Components/Navigation/Navigation";
 
 export default function Main() {
   return (
-    <div className="flex flex-col md:flex-row">
+    <div className="flex flex-col md:flex-row overflow-hidden">
       <SideBar />
       <div className="md:w-3/4 md:ml-auto">
         <Outlet />
