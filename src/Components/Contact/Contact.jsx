@@ -2,7 +2,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 export default function Contact() {
   return (
-    <div className="bg-[#101010] p-20 rounded-2xl mb-20">
+    <div className="bg-[#101010] p-5 md:p-20 rounded-2xl mb-20">
       <h3 style={{ lineHeight: "65px" }} className="text-[70px]">
         Contact for <br /> work
       </h3>
@@ -39,7 +39,7 @@ export default function Contact() {
             />
           </div>
 
-          <button className="border border-[#333] mt-5 pl-5 px-3 py-2 rounded-full flex items-center justify-between cursor-pointer w-2/5 bg-white text-black font-medium text-xl">
+          <button className="border border-[#333] mt-5 pl-5 px-3 py-2 rounded-full flex items-center justify-between cursor-pointer bg-white text-black font-medium text-xl w-full md:w-2/5">
             Get Started{" "}
             <div className="bg-black h-10 w-10 rounded-full text-white flex justify-center items-center">
               <BsArrowUpRight />

@@ -22,7 +22,7 @@ export default function Accordant({
         <span
           className={`${
             isOpen ? "text-white" : "text-secondary"
-          } text-[70px] text-left flex items-center gap-5`}
+          } text-3xl md:text-[70px] text-left flex items-center gap-5`}
         >
           {isOpen && (
             <div
@@ -68,7 +68,7 @@ export default function Accordant({
         }`}
       >
         <div className="overflow-hidden">
-          <div className="px-6 py-4 text-white ml-20 text-xl">{content}</div>
+          <div className="px-6 py-4 text-white md:ml-20 text-xl">{content}</div>
         </div>
       </div>
     </div>

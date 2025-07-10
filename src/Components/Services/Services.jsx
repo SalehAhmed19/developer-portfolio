@@ -35,9 +35,9 @@ export default function Services() {
 
   return (
     <div className="relative">
-      <div className="h-screen w-96 rounded-full bg-[#A44E11] opacity-[90%] blur-3xl absolute right-[-200px] z-0"></div>
+      <div className="h-screen w-96 rounded-full bg-[#A44E11] opacity-[90%] blur-3xl absolute md:right-[-200px] z-0"></div>
       {/*  */}
-      <div className="bg-[#101010] p-10 rounded-2xl relative z-40">
+      <div className="bg-[#101010] p-5 md:p-10 rounded-2xl relative z-40">
         <SectionTitle title={"My Service"} />
         <div>
           {accordionData.map((item, index) => (

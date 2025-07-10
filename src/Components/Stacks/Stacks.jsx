@@ -44,10 +44,19 @@ export default function Stacks() {
   const [sliderRef] = useKeenSlider(
     {
       loop: true, // Enable looping
-      slides: {
-        perView: 2, // Show 2 slides at a time
-        spacing: 15, // 15px spacing between slides
+      // slides: {
+      //   perView: 2, // Show 2 slides at a time
+      //   spacing: 15, // 15px spacing between slides
+      // },
+      breakpoints: {
+        "(min-width: 400px)": {
+          slides: { perView: 1, spacing: 5 },
+        },
+        "(min-width: 920px)": {
+          slides: { perView: 2, spacing: 10 },
+        },
       },
+      // slides: { perView: 1 },
     },
     // This is where you define plugins. It's an array of plugin functions.
     [
@@ -68,7 +77,7 @@ export default function Stacks() {
           // Set a new timeout to advance the slider after 2 seconds (2000ms)
           timeout = setTimeout(() => {
             slider.next(); // Go to the next slide
-          }, 3000);
+          }, 2000);
         }
 
         // 'created' event: When the slider is first created
@@ -99,8 +108,8 @@ export default function Stacks() {
     ] // End of plugins array
   );
   return (
-    <div>
-      <h3 className="text-[70px] font-medium">Tech Stack</h3>
+    <div className="p-5 md:p-0">
+      <h3 className="text-[46px] md:text-[70px] font-medium">Tech Stack</h3>
       <div ref={sliderRef} className="keen-slider my-5">
         {stacks.map((stack, idx) => (
           <div

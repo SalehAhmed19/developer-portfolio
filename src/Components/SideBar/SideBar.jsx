@@ -5,7 +5,7 @@ import { BsArrowUpRight } from "react-icons/bs";
 
 export default function SideBar() {
   return (
-    <div className="bg-[#101010] w-3/12 m-5 rounded-2xl shadow-2xl p-5 text-center fixed">
+    <div className="bg-[#101010] md:w-3/12 m-5 rounded-2xl shadow-2xl p-5 text-center md:fixed">
       <div className="border border-[#333] rounded-full flex items-center px-5 py-2 gap-2 text-[#B2B2B2]">
         <div className="h-2 w-2 bg-primary rounded-full"></div>
         <p style={{ lineHeight: "30px" }} className="text-xl">
