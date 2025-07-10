@@ -22,12 +22,14 @@ export default function SideBar() {
       </h3>
       <p className="text-[#787878]">Based in Bogura, Bangladesh</p>
       <Social />
-      <button className="border border-[#333] mt-5 pl-5 px-3 py-3 rounded-full w-full flex items-center justify-between cursor-pointer">
-        Get Started{" "}
-        <div className="bg-white h-6 w-6 rounded-full text-black flex justify-center items-center">
-          <BsArrowUpRight />
-        </div>
-      </button>
+      <a href="#contact">
+        <button className="border border-[#333] mt-5 pl-5 px-3 py-3 rounded-full w-full flex items-center justify-between cursor-pointer">
+          Get Started{" "}
+          <div className="bg-white h-6 w-6 rounded-full text-black flex justify-center items-center">
+            <BsArrowUpRight />
+          </div>
+        </button>
+      </a>
     </div>
   );
 }

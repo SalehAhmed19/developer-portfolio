@@ -57,9 +57,11 @@ export default function Services() {
             Available to <span className="text-white">Worldwide</span>
           </p>
 
-          <p className="flex items-center gap-2 text-xl cursor-pointer">
-            Contact me <FiArrowUpRight />
-          </p>
+          <a href="#contact">
+            <p className="flex items-center gap-2 text-xl cursor-pointer">
+              Contact me <FiArrowUpRight />
+            </p>
+          </a>
         </div>
       </div>
     </div>

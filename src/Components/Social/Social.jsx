@@ -10,13 +10,25 @@ export default function Social() {
       >
         <FaFacebook />
       </a>
-      <a href="#" target="_blank" className="cursor-pointer">
+      <a
+        href="https://www.linkedin.com/in/salehahmedmahin/"
+        target="_blank"
+        className="cursor-pointer"
+      >
         <FaLinkedin />
       </a>
-      <a href="#" target="_blank" className="cursor-pointer">
+      <a
+        href="https://x.com/salehahmedmahin/"
+        target="_blank"
+        className="cursor-pointer"
+      >
         <FaTwitter />
       </a>
-      <a href="#" target="_blank" className="cursor-pointer">
+      <a
+        href="https://www.instagram.com/stories/saleh.ahmed.mahin/"
+        target="_blank"
+        className="cursor-pointer"
+      >
         <FaInstagram />
       </a>
     </div>

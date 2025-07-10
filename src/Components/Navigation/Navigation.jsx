@@ -2,7 +2,6 @@ import { FaHome, FaUser } from "react-icons/fa";
 import { GrServices } from "react-icons/gr";
 import { BsStack } from "react-icons/bs";
 import { RiMessage2Fill } from "react-icons/ri";
-import { Link } from "react-scroll";
 
 export default function Navigation() {
   const navigations = [
@@ -17,7 +16,7 @@ export default function Navigation() {
       <ul className="flex flex-col gap-7">
         {navigations.map((nav, idx) => (
           <li key={idx} className="cursor-pointer">
-            <Link
+            {/* <Link
               to={`${nav.to}`}
               spy={true}
               smooth={true}
@@ -25,7 +24,8 @@ export default function Navigation() {
               duration={500}
             >
               {nav.icon}
-            </Link>
+            </Link> */}
+            <a href={`#${nav.to}`}>{nav.icon}</a>
           </li>
         ))}
       </ul>
