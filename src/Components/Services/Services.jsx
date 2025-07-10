@@ -1,3 +1,5 @@
+import { GiWorld } from "react-icons/gi";
+import { FiArrowUpRight } from "react-icons/fi";
 import { useState } from "react";
 import SectionTitle from "../SectionTitle/SectionTitle";
 import Accordant from "../Accordant/Accordant";
@@ -37,7 +39,6 @@ export default function Services() {
       {/*  */}
       <div className="bg-[#101010] p-10 rounded-2xl relative z-40">
         <SectionTitle title={"My Service"} />
-
         <div>
           {accordionData.map((item, index) => (
             <Accordant
@@ -49,6 +50,16 @@ export default function Services() {
               onToggle={handleToggle}
             />
           ))}
+        </div>
+        <div className="flex justify-between items-center">
+          <p className="text-secondary px-6 flex gap-2 items-center">
+            <GiWorld />
+            Available to <span className="text-white">Worldwide</span>
+          </p>
+
+          <p className="flex items-center gap-2 text-xl cursor-pointer">
+            Contact me <FiArrowUpRight />
+          </p>
         </div>
       </div>
     </div>
