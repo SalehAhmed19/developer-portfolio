@@ -7,6 +7,13 @@ import mongo from "../../assets/images/mongo.webp";
 import express from "../../assets/images/express.png";
 import tailwind from "../../assets/images/tailwind.png";
 import firebase from "../../assets/images/firebase.png";
+import reactRouter from "../../assets/images/react-router.png";
+import vite from "../../assets/images/vite.png";
+import redux from "../../assets/images/redux-icon.webp";
+import next from "../../assets/images/next.png";
+import vercel from "../../assets/images/vercel.png";
+import github from "../../assets/images/github.png";
+import npm from "../../assets/images/npm.png";
 
 export default function Stacks() {
   const stacks = [
@@ -39,6 +46,41 @@ export default function Stacks() {
       img: firebase,
       title: "Firebase",
       description: "Firebase: Secure user auth, seamless deployment.",
+    },
+    {
+      img: reactRouter,
+      title: "React Router Dom",
+      description: "Manage UI synchronization with URL.",
+    },
+    {
+      img: vite,
+      title: "Vite",
+      description: "Rapid web development with native ESM.",
+    },
+    {
+      img: redux,
+      title: "Redux Toolkit",
+      description: "Simplified, opinionated Redux development.",
+    },
+    {
+      img: next,
+      title: "Next.Js",
+      description: "Server-rendered React for fast performance.",
+    },
+    {
+      img: vercel,
+      title: "Vercel",
+      description: "Deploy web projects with ease.",
+    },
+    {
+      img: github,
+      title: "GitHub",
+      description: "Platform for version control and collaboration.",
+    },
+    {
+      img: npm,
+      title: "NPM",
+      description: "NPM: JavaScript package manager, dependency handler.",
     },
   ];
   const [sliderRef] = useKeenSlider(

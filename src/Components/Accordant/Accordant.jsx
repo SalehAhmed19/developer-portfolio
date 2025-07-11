@@ -13,7 +13,7 @@ export default function Accordant({
     <div className="rounded-lg mb-4 shadow-sm overflow-hidden">
       {/* Accordion Header */}
       <button
-        className={`flex justify-between items-center w-full px-6 py-4 focus:outline-none focus:ring-opacity-50 transition duration-700 ease-in-out cursor-pointer`}
+        className={`flex justify-between items-center w-full px-6 py-4 focus:outline-none focus:ring-opacity-50 transition duration-[6000ms] ease-in-out cursor-pointer`}
         onClick={() => onToggle(index)}
         aria-expanded={isOpen}
         aria-controls={`panel-content-${index}`}

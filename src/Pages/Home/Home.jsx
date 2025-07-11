@@ -5,6 +5,7 @@ import AboutMe from "../../Components/AboutMe/AboutMe";
 import Stacks from "../../Components/Stacks/Stacks";
 import Contact from "../../Components/Contact/Contact";
 import Footer from "../../Components/Footer/Footer";
+import Scrolling from "../../Components/Scrolling/Scrolling";
 
 export default function Home() {
   const [time, setTime] = useState();
@@ -21,10 +22,12 @@ export default function Home() {
 
       {/*  */}
       <Introduction />
+      <Scrolling />
       <Services />
       <AboutMe />
       <Stacks />
       <Contact />
+      <Scrolling />
       <Footer />
     </div>
   );
