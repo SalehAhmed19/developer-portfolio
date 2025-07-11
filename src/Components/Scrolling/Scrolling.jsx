@@ -35,7 +35,7 @@ export default function Scrolling() {
         <div className="flex items-center gap-5">
           {technologies.map((tech, idx) => (
             // <img className="w-8" key={idx} src={tech} alt="" />
-            <div key={idx} className="flex items-center gap-2">
+            <div key={idx} className="flex items-center gap-2 mx-2">
               <p>{tech.title}</p>
               <div className="h-2 w-2 rounded-2xl bg-white"></div>
             </div>
@@ -45,7 +45,7 @@ export default function Scrolling() {
       <Marquee>
         <div className="flex items-center gap-5">
           {technologies.map((tech, idx) => (
-            <img className="w-8" key={idx} src={tech.img} alt="" />
+            <img className="w-8 mx-2" key={idx} src={tech.img} alt="" />
           ))}
         </div>
       </Marquee>
@@ -53,7 +53,7 @@ export default function Scrolling() {
         <div className="flex items-center gap-5">
           {technologies.map((tech, idx) => (
             // <img className="w-8" key={idx} src={tech} alt="" />
-            <div key={idx} className="flex items-center gap-2">
+            <div key={idx} className="flex items-center gap-2 mx-2">
               <p>{tech.title}</p>
               <div className="h-2 w-2 rounded-2xl bg-white"></div>
             </div>
