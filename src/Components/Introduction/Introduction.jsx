@@ -5,21 +5,23 @@ export default function Introduction() {
   return (
     <div className="p-5 md:p-0" id="home">
       <SectionTitle title={"Introduction"} />
-      <h1 style={{ lineHeight: "65px" }} className="text-[64px]">
-        <span className="text-secondary">
-          Building Effortless Online Journeys:
-        </span>{" "}
-        {/* A MERN Stack & React.js Developer's Showcase. */}
-        <Typewriter
-          words={[" A MERN Stack & React.js Developer's Showcase"]}
-          loop={true}
-          cursor
-          cursorStyle="_"
-          typeSpeed={70}
-          deleteSpeed={30}
-          delaySpeed={1000}
-        />
-      </h1>
+      <div className="h-[550px] md:h-[200px]">
+        <h1 style={{ lineHeight: "65px" }} className="text-[64px]">
+          <span className="text-secondary">
+            Building Effortless Online Journeys:
+          </span>{" "}
+          {/* A MERN Stack & React.js Developer's Showcase. */}
+          <Typewriter
+            words={[" A MERN Stack & React.js Developer's Showcase"]}
+            loop={true}
+            cursor
+            cursorStyle="_"
+            typeSpeed={70}
+            deleteSpeed={30}
+            delaySpeed={1000}
+          />
+        </h1>
+      </div>
 
       <p className="text-secondary mt-5">
         I transform complex ideas into elegant, user-friendly web applications{" "}

@@ -156,7 +156,7 @@ export default function Stacks() {
         {stacks.map((stack, idx) => (
           <div
             key={idx}
-            className="keen-slider__slide bg-[#101010] rounded-2xl flex flex-col items-center p-10"
+            className="keen-slider__slide bg-[#101010] rounded-2xl flex flex-col items-center p-10 cursor-pointer"
           >
             <h5 className="text-3xl font-medium">{stack.title}</h5>
             <div className="bg-black p-5 my-5 rounded-2xl">
